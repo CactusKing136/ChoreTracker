@@ -25,6 +25,7 @@ body {
     z-index: 1000; /* Ensure it's above other content */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
     padding: 30px;
+    text-align: center;
   }
   
   /* Style the navigation links */
@@ -45,6 +46,7 @@ body {
     display: inline;
     margin: 0 10px;
     background-color: #333333;
+    text-align: center;
   }
 
   .shop-container {
@@ -70,8 +72,8 @@ body {
   .card-btn {
     background-color: #ffcc00;
     border: 1px solid #333333;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 10px;
     margin-left: 10px;
   }
@@ -89,13 +91,14 @@ body {
     display: flex;
     align-items: center;
     width: 190px;
-    font-size: 20px;
+    font-size: 15px;
     justify-content: space-around;
   }
 
   .card-description {
     color: #cccccc;
-    margin-top: 10px;
+    margin-top: 8px;
+    font-size: 10px;
   }
 
   .card-info {
@@ -170,6 +173,10 @@ ul li:active {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.card-title {
+  font-size: 20px;
 }
 
 
