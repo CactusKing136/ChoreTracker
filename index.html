@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ChoreTracker</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <p class="title">ChoreChecker</p>
+      </nav>
+    </header>
+
+    <div class="shop-container">
+      <div class="shop-header">
+        <p class="header-icon"><i class="bx bx-store bx-lg"></i></p>
+        <p class="icon-title">Shop</p>
+      </div>
+      <div class="car-wash-card card">
+        <div class="card-info">
+          <h1 class="card-title">Wash All Cars</h1>
+          <p class="card-description">
+            A deep clean that will leave your car looking and feeling brand new!
+          </p>
+        </div>
+        <div class="token-info">
+          <div class="car-tokens"><p>Tokens: 0</p></div>
+          <button class="car-wash-btn card-btn">
+            <i class="bx bx-list-plus bx-lg"></i>
+          </button>
+        </div>
+      </div>
+      <div class="clean-kitchen-card card">
+        <div class="card-info">
+          <h1 class="card-title">Clean The Kitchen</h1>
+          <p class="card-description">
+            Because even the kitchen deserves a little sparkle and shine!
+          </p>
+        </div>
+        <div class="token-info">
+          <div class="kitchen-tokens"><p>Tokens: 0</p></div>
+          <button class="kitchen-btn card-btn">
+            <i class="bx bx-list-plus bx-lg"></i>
+          </button>
+        </div>
+      </div>
+      <div class="do-washing-card card">
+        <div class="card-info">
+          <h1 class="card-title">Do The Washing</h1>
+          <p class="card-description">
+            Turning laundry day blues into fresh, clean hues!
+          </p>
+        </div>
+        <div class="token-info">
+          <p class="washing-tokens">Tokens: 0</p>
+          <button class="washing-btn card-btn">
+            <i class="bx bx-list-plus bx-lg"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="chores-center">
+      <div class="divider"></div>
+      <div class="chores-container">
+        <div class="shop-header">
+          <p class="header-icon"><i class="bx bx-check-square bx-lg"></i></p>
+          <p class="icon-title">Chores</p>
+        </div>
+        <div class="list-container">
+          <ul class="chores-list"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js" type="module" defer></script>
+  </body>
+</html>
